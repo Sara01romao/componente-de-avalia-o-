@@ -1,0 +1,1 @@
+# componente-de-avalia-o-
