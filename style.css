@@ -1,0 +1,94 @@
+:root{
+    --bg-color: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    --orange: #FC7614;
+    --grey-light:#7C8798;
+    
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.card-avaliacao{
+    font-family: "Overpass", sans-serif;
+}
+
+
+.item-nota{
+    background:#262E38;
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+    margin: 5px;
+    position: relative;
+   
+
+}
+
+.item-nota:hover{
+    background: var(--grey-light);
+    color: #fff;
+}
+.item-nota:hover label{
+    
+    color: #fff;
+}
+
+.item-nota label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    color: #7C8798;
+    font-size: 16px;
+}
+
+.item-nota input[type=radio]{
+    display:none; 
+}
+
+
+
+.item-nota input[type=radio] + label::before{
+    content: "";
+    width: 51px;
+    height: 51px;
+    display: inline-block;
+    
+    border-radius:4px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    cursor: pointer;
+
+} 
+
+
+.item-nota input[type=radio]:checked + label::before{
+   
+    color: #FFF;
+    content: "";
+    text-align: center;
+
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+}
+
+
+
+
+.item-nota:has(input[type=radio]:checked){
+    background: var(--orange);
+    
+} 
+
+.item-nota:has(input[type=radio]:checked) label{
+    color: #fff;
+    
+}    
