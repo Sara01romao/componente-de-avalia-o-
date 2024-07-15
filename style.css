@@ -36,9 +36,9 @@
 
 }
 
-.card-avaliacao{
+/* .card-avaliacao{
     display: none;
-}
+} */
 
 .star{
     width: 48px;
@@ -178,4 +178,48 @@
         height: 35px;
     }
     
+}
+
+
+/***/
+
+.card-concluido-avaliacao{
+    padding: 45px 40px;
+    display: none;
+}
+
+.header-card-concluido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+
+.header-card-concluido p{
+    font-size: 15px;
+    color: var(--orange);
+    background: #262E38 ;
+    padding: 4px 20px;
+    font-weight: 400;
+    border-radius: 50px;
+
+
+}
+
+.txt-card-concluido h2{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.txt-card-concluido p{
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    color: var(--grey-light);
+    line-height: 24px;
+
 }
