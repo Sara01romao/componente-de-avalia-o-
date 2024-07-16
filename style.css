@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #131518;
+}
+
 
 
 .container{
@@ -223,3 +227,56 @@
     line-height: 24px;
 
 }
+
+
+
+
+@keyframes flipInX {
+    from {
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0;
+    }
+    40% {
+      transform: perspective(400px) rotateX(-10deg);
+    }
+    70% {
+      transform: perspective(400px) rotateX(10deg);
+    }
+    to {
+      transform: perspective(400px) rotateX(0deg);
+      opacity: 1;
+    }
+  }
+  
+
+  .flipInX {
+    animation-name: flipInX;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    display: block;
+  }
+  
+
+
+  @keyframes flipOutX {
+    from {
+      transform: perspective(400px) rotateX(0deg);
+      opacity: 1;
+    }
+    30% {
+      transform: perspective(400px) rotateX(-10deg);
+      opacity: 1;
+    }
+    to {
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0;
+    }
+  }
+  
+
+  .flipOutX {
+    animation-name: flipOutX;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    
+  }
