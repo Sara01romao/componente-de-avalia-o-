@@ -104,13 +104,13 @@ body{
     width: 100%;
     height: 51px;
     display: inline-block;
-    
     border-radius:4px;
     position: absolute;
     right: 0px;
     left: 0px;
     cursor: pointer;
     border-radius: 50%;
+    
     
 
 } 
@@ -121,7 +121,6 @@ body{
     color: #FFF;
     content: "";
     text-align: center;
-
     border-radius: 50px;
 }
 
@@ -144,6 +143,8 @@ body{
     justify-content: space-between;
     margin-top: 24px;
 }
+
+
 
 
 .btn-submit{
@@ -251,7 +252,7 @@ body{
 
   .flipInX {
     animation-name: flipInX;
-    animation-duration: 1s;
+    animation-duration: 0.6s;
     animation-fill-mode: both;
     display: block;
   }
@@ -276,7 +277,41 @@ body{
 
   .flipOutX {
     animation-name: flipOutX;
-    animation-duration: 1s;
+    animation-duration: 0.6s;
     animation-fill-mode: both;
     
   }
+
+
+  .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262E38;
+    cursor: pointer;
+  }
+
+  .close:hover{
+    background: #1b2b3e;
+    background: var(--grey-light);
+  }
+
+  .close:hover svg path{
+    fill: #fff;
+  }
+
+
+  .erro{
+    text-align: center;
+    margin-top: 14px;
+    font-size: 13px;
+    display: none;
+    
+}
