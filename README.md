@@ -9,7 +9,7 @@
 </p> 
 
 ## 💻  Sobre o Projeto
-Componente avaliação, inclui recursos como variação de cores ao interagir com as notas, animações suaves durante as transições de exibição 
+Componente de Avaliação, inclui recursos como variação de cores ao interagir com as notas, animações suaves durante as transições de exibição 
 e um card de agradecimento dinâmico após a submissão, garantindo uma experiência de usuário fluida e agradável.
 
 Fonte: Desafio Frontend Mentor
