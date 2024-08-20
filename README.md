@@ -14,7 +14,7 @@ e um card de agradecimento dinâmico após a submissão, garantindo uma experiê
 
 Fonte: Desafio Frontend Mentor
 
-<a href="https://sara01romao.github.io/componente-de-avaliacao-html-css-javascript/" target="_blank"><strong>Acessar Desafio »</strong></a>
+<a href="https://sara01romao.github.io/componente-de-avaliacao-html-css-javascript/" target="_blank"><strong>Acessar »</strong></a>
 
 <br>
 
